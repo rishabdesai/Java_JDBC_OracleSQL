@@ -5,15 +5,15 @@
 package pages;
 
 import java.sql.Connection;
-import utils.DbUtils;
+import utils.DbUtils2;
 
-public class BasicJDBCconnectionOption3 {
+public class BasicJDBCconnectionOption4 {
 
 	public static void main(String[] args) {
 		Connection connection = null;
 
 		try {
-			connection = DbUtils.getConnection();
+			connection = DbUtils2.getConnection();
 			System.out.println("connected to database");
 
 		} catch (Exception e) {
