@@ -1,7 +1,6 @@
 /* using DAO , DbUtils, POJO
  * to separate Business logic with Data Manipulation logic
  * DAO should contain methods for insert, update and delete.
- * 
  */
 
 package DAO;
