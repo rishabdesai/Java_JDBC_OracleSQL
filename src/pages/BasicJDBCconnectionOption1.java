@@ -13,7 +13,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class BasicJDBCconnection {
+public class BasicJDBCconnectionOption1 {
 	public static void main(String[] args) {
 		String dbURL = "jdbc:oracle:thin:@localhost:1521:Xe";
 		String username = "root"; // change as per your username
