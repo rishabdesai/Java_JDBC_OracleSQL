@@ -1,3 +1,8 @@
+/*This class reads data from config.properties file using Properties.
+ * Properties is a key-value collection where key is string and value is also string.
+ * By doing this, we have reduced code dependency.
+ * similar approach is used in hibernate (DbUtils -> HbUtils) and (config.properties -> hibernate.cfg.xml)
+ */
 package utils;
 
 import java.io.File;

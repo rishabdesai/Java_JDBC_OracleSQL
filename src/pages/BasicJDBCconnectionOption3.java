@@ -1,4 +1,4 @@
-/*  simplifying the code using separate class for connection (DbUtils)
+/*  simplifying the code using separate class for connection (DbUtils.java)
  * 
  */
 

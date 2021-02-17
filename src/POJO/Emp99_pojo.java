@@ -1,3 +1,9 @@
+/* Emp99_pojo.class to be use in BasicJDBCconnectionOption5.class to access RDBMS
+ * For ORM, we should define POJO class.
+ * It should private field for each column, for each private field it should contain 
+ * getter and setter, It should not contain business logic method but it can contain
+ * toString(), hashCode and equals method.  
+ */
 package POJO;
 
 public class Emp99_pojo {

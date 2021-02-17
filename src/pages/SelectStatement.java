@@ -30,7 +30,7 @@ public class SelectStatement {
 			ResultSet rs = statement.executeQuery(sql); // DQL : Select
 			// print on console
 			while (rs.next()) {
-				String empno = rs.getString(1);
+				String empno = rs.getString(1); // 1 is column number
 				String ename = rs.getString(2);
 				float sal = rs.getFloat(3);
 				int deptno = rs.getInt(4);

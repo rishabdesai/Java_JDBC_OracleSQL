@@ -1,5 +1,8 @@
-/*  Using POJO class
- * 
+/*  Using POJO class (Emp99_pojo.class)
+ *  in Database -> row, column, table, primary key
+ *  in java 	-> instance, field, class, ID field
+ *  to map database entities with java entities , we use POJO class
+ *  This mapping is called as Object Relational mapping (ORM)
  */
 
 package pages;
@@ -49,7 +52,7 @@ public class BasicJDBCconnectionOption5 {
 			}
 			*/
 			
-			//option 2 - using parametarized constructor
+			//option 2 - using parameterized constructor (first create parameterized ctor in POJO class)
 			while(rs.next()) {
 				Emp99_pojo emp99 = new Emp99_pojo(rs.getString(1),rs.getString(2),rs.getInt(3), rs.getInt(4),rs.getString(5),rs.getString(6));
 				System.out.println(emp99.toString());
