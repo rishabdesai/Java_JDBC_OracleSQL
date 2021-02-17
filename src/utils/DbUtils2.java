@@ -15,8 +15,8 @@ import java.util.Properties;
 public class DbUtils2 {
 	static Properties p;
 	static {
-		try {
-			InputStream inputStream = new FileInputStream(new File("Config.properties"));
+		try (InputStream inputStream = new FileInputStream(new File("Config.properties"))){
+			
 			p = new Properties();
 			p.load(inputStream);
 		} catch (Exception e) {
